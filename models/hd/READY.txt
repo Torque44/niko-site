@@ -1,0 +1,14 @@
+Meshy 7.1 image-to-3D props (agent: text->concept image->3D), shrunk with _hy3d/shrink.py.
+All: plain GLB, no Draco/meshopt/KTX2, single mesh, smooth NORMALs, JPEG textures, Y is up, units = Meshy native (scale in code).
+
+palm.glb: 3.44 MB, 35999 triangles, textures baseColor 2048px, metallicRoughness 512px, normal 512px, Y up
+  bounds min x -0.5778 y -0.9507 z -0.5504 | max x 0.5886 y 0.9509 z 0.5533
+  base y = -0.9507, total height = 1.9016; centre x 0.005 z 0.001
+
+car_sport.glb: 2.73 MB, 30000 triangles, textures baseColor 2048px, metallicRoughness 1024px, normal 1024px, Y up
+  bounds min x -0.9513 y -0.2724 z -0.4233 | max x 0.9507 y 0.2706 z 0.4244
+  FRONT points along -X (nose at x=-0.951); length along X, width along Z; wheel-contact y = -0.2724
+
+car_suv.glb: 2.72 MB, 30000 triangles, textures baseColor 2048px, metallicRoughness 1024px, normal 1024px, Y up
+  bounds min x -0.9520 y -0.3627 z -0.4285 | max x 0.9506 y 0.3626 z 0.4273
+  FRONT points along -X (nose at x=-0.952); length along X, width along Z; wheel-contact y = -0.3627

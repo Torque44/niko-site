@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$NIKO · The man in the chair, Vice City</title>
+<meta name="description" content="A fan reading of the GTA 6 chapter 5 scene: the man in the chair in Vice City, and the $NIKO token on Solana.">
+<meta name="theme-color" content="#04080f">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="$NIKO">
+<meta property="og:title" content="$NIKO · The man in the chair, Vice City">
+<meta property="og:description" content="A fan reading of the GTA 6 chapter 5 scene, scored as a scroll film. $NIKO on Solana.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@nikogtaonsol">
+<meta name="twitter:title" content="$NIKO · The man in the chair, Vice City">
+<meta name="twitter:description" content="A fan reading of the GTA 6 chapter 5 scene, scored as a scroll film. $NIKO on Solana.">
+<script>
+  /* cover the page before first paint; js/loader.js lifts it (skipped for ?t= review and reduced motion) */
+  (function () {
+    try {
+      if (/[?&]t=/.test(location.search) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var d = document.documentElement; d.classList.add('is-loading');
+      /* safety net in case js/loader.js never runs; loader.js clears it and keeps its own 150 s cap */
+      window.__ldSafety = setTimeout(function () { d.classList.remove('is-loading'); }, 20000);
+    } catch (e) {}
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500&family=Sofia+Sans:wght@400;600;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=7">
+<link rel="preload" as="image" href="img/load/man-d.webp" media="(min-width: 701px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/load/man-m.webp" media="(max-width: 700px)" fetchpriority="high">
+</head>
+<body>
+
+<div id="loader" class="loader" role="status" aria-live="polite" aria-busy="true">
+  <div class="ld-stage" aria-hidden="true">
+    <figure class="ld-panel is-on is-first" data-cap="Eighteen years" style="--pos: 50% 28%">
+      <picture><source media="(max-width: 700px)" srcset="img/load/man-m.webp"><img src="img/load/man-d.webp" alt="" fetchpriority="high"></picture>
+    </figure>
+    <figure class="ld-panel" data-cap="Vice City after dark" data-d="img/load/tower-d.webp" data-m="img/load/tower-m.webp" style="--pos: 46% 40%"></figure>
+    <figure class="ld-panel" data-cap="Across the bay" data-d="img/load/bay-d.webp" data-m="img/load/bay-m.webp" style="--pos: 55% 55%"></figure>
+    <figure class="ld-panel" data-cap="Still standing" data-d="img/load/rail-d.webp" data-m="img/load/rail-m.webp" style="--pos: 30% 50%"></figure>
+  </div>
+  <div class="ld-ui">
+    <p class="ld-mark" aria-hidden="true"><span>$</span>NIKO</p>
+    <p class="ld-cap" aria-hidden="true"><span class="ld-cap-n">01 / 04</span><span class="ld-cap-t">Eighteen years</span></p>
+    <div class="ld-foot">
+      <p class="ld-hint" aria-hidden="true"><b>Tip</b><span>Scroll to move through the film. It plays at your pace.</span></p>
+      <div class="ld-meter">
+        <span style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">Loading the film</span>
+        <p class="loader-cap" aria-hidden="true"><i class="ld-spin" aria-hidden="true"></i><span class="ld-label">Loading Vice City</span><span class="loader-pct" aria-hidden="true">00%</span></p>
+        <div class="loader-bar" aria-hidden="true"><i></i></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<canvas id="film" aria-hidden="true"></canvas>
+<div class="cut" aria-hidden="true"></div>
+<div class="bars" aria-hidden="true"><i></i><i></i></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="brand" href="#rooftop" aria-label="$NIKO, back to top">$NIKO</a>
+  <nav aria-label="Sections">
+    <a href="https://x.com/NikoGTAonsol/status/2123659357162480115" target="_blank" rel="noopener">The scene</a>
+    <a href="#token">Token</a>
+  </nav>
+  <a class="btn btn--solid" href="https://pump.fun/coin/A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump" target="_blank" rel="noopener">Buy $NIKO</a>
+</header>
+
+<main>
+
+  <!-- Act 1: the rooftop -->
+  <section id="rooftop" class="act" aria-labelledby="h-hero">
+    <div class="shot shot--hero" data-cue="-1,0.42">
+      <div class="hero-copy">
+        <h1 id="h-hero">Niko is in GTA&nbsp;6.</h1>
+        <p class="lede">Eighteen years after the boat docked in Liberty City, he has the chair in Vice&nbsp;City.</p>
+        <div class="actions">
+          <a class="btn btn--solid" href="https://pump.fun/coin/A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump" target="_blank" rel="noopener">Buy $NIKO</a>
+          <a class="btn btn--line" href="#office">Watch him turn around</a>
+        </div>
+      </div>
+      <p class="fineprint">A fan reading of the chapter 5 scene. The credits list Michael Hollick, Niko's voice in GTA&nbsp;IV, as &ldquo;The Hitman&rdquo;. The game never says the man's name.</p>
+    </div>
+    <div class="scrollcue" data-cue="-1,0.075" aria-hidden="true">
+      <span class="sc-label"><span class="sc-fine">Scroll</span><span class="sc-touch">Swipe</span></span>
+      <span class="sc-rail"><i></i></span>
+    </div>
+  </section>
+
+  <!-- Act 2: across the bay -->
+  <section id="crossing" class="act" aria-label="How he got here">
+    <p class="line line--l" data-cue="1.06,1.36">2008. A Serbian war veteran steps off a boat in Liberty City, chasing the life his cousin Roman promised.</p>
+    <p class="line line--r" data-cue="1.38,1.64">He found debt collectors, mobsters and double-crosses instead.</p>
+    <p class="line line--l" data-cue="1.66,1.87">Roman still calls about bowling. The phone rings in a penthouse now.</p>
+  </section>
+
+  <!-- Act 3: the office -->
+  <section id="office" class="act" aria-label="The chapter 5 scene">
+    <p class="sub" data-cue="2.45,2.55">Oh, no...</p>
+    <p class="sub" data-cue="2.57,2.67">Well, look who it is.</p>
+    <p class="sub" data-cue="2.69,2.78">It's been a long time.</p>
+    <div class="card" data-cue="2.77,2.95">
+      <h2>Niko Bellic</h2>
+      <p>The credits say The Hitman. The chair says boss.</p>
+    </div>
+  </section>
+
+  <!-- Token -->
+  <section id="token" class="flow" aria-labelledby="h-token">
+    <div class="flow-inner">
+      <h2 id="h-token">$NIKO</h2>
+      <p class="flow-lede">From the Balkans to the blockchain. Cousin, let's go bowling.</p>
+
+      <div class="ca">
+        <span class="ca-label">Contract address, Solana</span>
+        <code id="ca">A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump</code>
+        <button class="btn btn--copy" id="copy" type="button" aria-live="polite">Copy address</button>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn--solid" href="https://pump.fun/coin/A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump" target="_blank" rel="noopener">Buy on pump.fun</a>
+        <a class="btn btn--line" href="https://dexscreener.com/solana/A2MgdY1oU6pqsREQ8eCPhR6DSMrGYaCPXUWUMRXgpump" target="_blank" rel="noopener">View the chart</a>
+        <a class="btn btn--line" href="https://x.com/nikogtaonsol" target="_blank" rel="noopener">Follow on X</a>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="vendor/three.min.js"></script>
+<script src="js/loader.js?v=7"></script>
+<script src="vendor/GLTFLoader.js"></script>
+<script src="js/post.js?v=21"></script>
+<script src="js/vice.js?v=21"></script>
+<script src="js/niko.js?v=21"></script>
+<script src="js/main.js?v=21"></script>
+<script>
+  /* copied state for the address button: main.js swaps the label, this mirrors it as a style hook */
+  (function () {
+    var b = document.getElementById('copy'); if (!b || !window.MutationObserver) return;
+    new MutationObserver(function () {
+      var t = b.textContent.trim();
+      b.dataset.state = t === 'Copied' ? 'copied' : (t === 'Copy address' ? '' : 'selected');
+    }).observe(b, { childList: true, characterData: true, subtree: true });
+  })();
+</script>
+</body>
+</html>

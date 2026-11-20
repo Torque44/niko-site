@@ -1,0 +1,7 @@
+* text=auto
+*.glb binary
+*.bin binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.ico binary

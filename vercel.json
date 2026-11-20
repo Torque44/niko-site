@@ -1,0 +1,176 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/models/niko/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/models/((?!niko/).*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/vendor/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/(js|css)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/seat.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "1260876"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/seat_full.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "71798408"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/seat_hq.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "27540776"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/seat_pro.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "10159900"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/seat_pro_m.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "3779740"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/seat_v3_m.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "12311228"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/stand.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "1260820"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/stand_full.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "30341232"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/stand_pro.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "7690600"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/stand_pro_m.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "3260984"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/stand_v3.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "12595936"
+        }
+      ]
+    },
+    {
+      "source": "/models/niko/stand_v3_m.glb",
+      "headers": [
+        {
+          "key": "X-File-Size",
+          "value": "9866936"
+        }
+      ]
+    }
+  ]
+}
